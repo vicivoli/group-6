@@ -5,26 +5,170 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>J220 Group Project</title>
+
+    <style>
+      .img-fluid {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      body {
+        background-image: url('background.jpg');
+        opacity: 0.8;
+        background-image: linear-gradient(#bbbef3 2px, transparent 2px), linear-gradient(90deg, #bbbef3 2px, transparent 2px), linear-gradient(#bbbef3 1px, transparent 1px), linear-gradient(90deg, #bbbef3 1px, #e5e5f7 1px);
+        background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+        background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;  ;
+        margin: auto;
+      }
+
+      #about {
+        border: hsl(238, 100%, 78%) 3px solid;
+        background-color: #bbbef3;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #383eb3;
+
+      }
+      
+      #hobbies {
+        display: flex;
+        flex-wrap: wrap;
+        border: hsl(238, 100%, 78%) 3px solid;
+        background-color: #bbbef3;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #383eb3;
+
+      }
+
+      #col-4 {
+        border: hsl(238, 100%, 78%) 3px solid;
+        background-color: #bbbef3;
+        text-align: center;
+        margin-bottom: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+
+      #food {
+        border: hsl(238, 100%, 78%) 3px solid;
+        background-color: #bbbef3;
+        text-align: center;
+        margin-bottom: 25px;
+
+      }
+
+      #music {
+        border: hsl(238, 100%, 78%) 3px solid;
+        background-color: #bbbef3;
+        text-align: center;
+        margin-bottom: 20px;
+
+      }
+
+      #never {
+        margin-top: 20px;
+        border: hsl(238, 100%, 78%) 3px solid;
+        background-color: #bdc0ff;
+        text-align: center;
+        color: aliceblue;
+
+      }
+
+      #joyride {
+        border: hsl(238, 100%, 78%) 3px solid;
+        background-color: #bdc0ff;
+        text-align: center;
+        color: aliceblue;
+
+      }
+      
+      h1 {
+        color: #030864;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      
+      h4 {
+        color: #030864;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+
+      p {
+        color: #3b41b1;
+        text-align: center;
+        font-size: medium;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      
+    </style>
   </head>
   <body>
-
-
+    
     <header class="container">
-      <div class="p-5 my-4 rounded-3 bg-body-secondary">
-        <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold">Your Name Here</h1>
-          <p class="fs-4">A short tagline about yourself.</p>
+       <div class="p-5 my-4 rounded-3 bg-body-secondary">
+          <div id="heading">
+            <div class="container-fluid py-5">
+              <h1 class="display-5 fw-bold">Noelle Kim</h1>
+              <p class="fs-4">Just a person who loves to eat and sleep.</p>
+              <img src="Screenshot 2026-03-07 at 12.12.33 AM.png" alt="profile picture" class="img-fluid rounded-circle" style="width: 200px; height: 200px; object-fit: cover; margin-left: auto; margin-right: auto; display: block;">
+           </div>
         </div>
-      </div>
     </header>
 
 
     <section class="container col-12 col-lg-6">
+      <div class="container"> 
+        <h4 class="fw-bold">A Little Bit About Me</h5>
+          <div id="about">
+          <p class="fs-8">Hi! My name is Noelle and I'm a second year majoring Media Studies and Cognitive Science. My future career aspirations include working in entertainment with creative branding.</p>
+          </div>
+          <h4 class="fw-bold">My Hobbies</h4>
+        <div class="container">
+            <div id="hobbies">
+              <div class="row">
+                <div class="col-4" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Watching Netflix w/ Friends</div>
+                <div class="col-4" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Trying New Restaurants</div>
+                <div class="col-4" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Listening to Different Music</div>
+            
+              </div>
+      </div>
 
-      <h3 class="fw-bold">Change this headline </h3>
-      <p>The following post can be a reflection of your professional work, a hobby or interest, or another similar post. Journalism students can use this post to show case a few projects.</p>
-      <p>If you with to embed an image, include it in this folder, and link to it using the img tag.</p>
+      </div>
+          <h4 class="fw-bold">My Favorite Meals To Make </h4>
+          <div id="food">
+            <div class="row">
+              <div class="col-4"><img src="czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdXB3azYyMTIwMDM0LXdpa2ltZWRpYS1pbWFnZS1rb3dua2t3dS5qcGc.webp" alt="PB and J" class="img-fluid"></div>
+              <div class="col-4"><img src="czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHg4Nzc5NTUtaW1hZ2Uta3d2eGRhaGguanBn.webp" alt="Fried Rice" class="img-fluid"></div>
+              <div class="col-4"><img src="strawberry-dessert-strawberries-blackberries-dessert-preview.jpg" alt="parfait" class="img-fluid"></div>
+            </div>
+              <p class="fs-8">**not the biggest cook as you can see, but I'm working on broadening my skills** =P</p>
+              
+        </div>
 
+      <div class="container"> 
+        <h4 class="fw-bold">What's on My Playlist?</h4>
+          <div id="joyride">
+            <p class="fs-8">My Top Song: Joyride by Cortis</p>
+              <div class="row">
+              <div class="col-6"><img src="CORTIS_Logo.png" alt="Cortis Logo" class="img-fluid"></div>
+              <div class="col-6"><img src="Screenshot 2026-03-07 at 12.44.39 AM.png" alt="Cortis Album Cover" class="img-fluid"></div>
+            </div>
+          <audio controls class="w-100">
+            <source src="CORTIS_-_Joyride_live_by_Seonghyeon_Keonho_(mp3.pm).mp3" type="audio/mpeg">
+          </audio>
+          </div>
+          <div id="never">
+            <p class="fs-8">Runner Up: Never Let Go by LNGSHOT</p>
+            <div class="row">
+              <div class="col-6"><img src="kilos.png" alt="LNGSHOT Logo" class="img-fluid"></div>
+              <div class="col-6"><img src="night view.png" alt="LNGSHOT Album Cover" class="img-fluid"></div>
+            </div>
+            <audio controls class="w-100">
+              <source src="LNGSHOT_-_Never_Let_Go_(mp3.pm).mp3" type="audio/mpeg">
+            </audio>
+          </div>
+      </div>
     </section>
 
 
